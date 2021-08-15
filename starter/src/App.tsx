@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // const url = "https://www.youtube.com/embed/zFRXCwdPD-M";
+  const url = 'https://competent-meninsky-9ba18d.netlify.app';
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <iframe title="embedded" src={url}></iframe>
         </p>
         <a
           className="App-link"
@@ -19,6 +21,7 @@ function App() {
         </a>
       </header>
     </div>
+
   );
 }
 
